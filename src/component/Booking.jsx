@@ -21,14 +21,14 @@ const Booking = () => {
         backgroundImage: "linear-gradient(to bottom, rgba(1,0,0,0.52), rgba(1,0,0,0.73)), url('https://i.ibb.co/Q32xyqTX/beautiful-diamond-beach-penida-island-bali-indonesia-181624-41884.jpg')"
       }}>
       <Navbar></Navbar>
-      <div className="flex">
-      <div className="flex flex-col w-[50%] gap-4 p-4">
+      <div className="flex flex-col md:flex-row mt-10">
+      <div className="flex flex-col md:w-[50%] gap-4 p-4">
         {stays.map((stay) => (
-          <div key={stay.id} className="border flex items-center space-x-5 text-white rounded-xl p-4 shadow">
+          <div key={stay.id} className="border flex flex-col md:flex-row md:items-center space-x-5 text-white rounded-xl p-4 shadow">
             <img
               src={stay.image}
               alt={stay.title}
-              className="rounded-lg w-80 h-60 mb-2"
+              className="rounded-lg w-full md:w-80 h-60 mb-2"
             />
             <div>
             <h2 className="text-2xl font-semibold">{stay.title}</h2>
@@ -46,7 +46,7 @@ const Booking = () => {
           </div>
         ))}
       </div>
-      <div className="w-[40%]">
+      <div className="md:w-[40%]">
         <SearchableMap></SearchableMap>
       </div>
       </div>

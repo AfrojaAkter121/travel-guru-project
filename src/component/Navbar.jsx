@@ -18,7 +18,10 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-10 py-5 text-white bg-opacity-30 ">
       {/* logo title */}
-      <div className="text-2xl font-bold">Afroja Travel</div>
+      
+      <div className="text-xl md:text-3xl flex items-center font-bold">
+      <img src='https://i.ibb.co.com/99bkcZvR/1600w-8f-YWV8d-Fq-Jw.webp' alt="" className="w-14 h-14 rounded-full mr-3" />
+        WanderPoint</div>
       {/* laptop menu  */}
       <div className="">
         <ul className=" space-x-6 items-center hidden md:flex">
