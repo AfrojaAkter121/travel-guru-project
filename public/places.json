@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "COX'S BAZAR",
+    "details": "Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous for its long natural sandy beach.",
+    "bigDescription": "Cox's Bazar offers the world's longest natural sea beach stretching over 120 km. It's a perfect spot for those who love golden sands, sunset views, and the peaceful rhythm of waves. Tourists also enjoy visiting Himchari National Park and Inani Beach nearby.",
+    "image": "https://i.ibb.co.com/7JqqGmzT/aerial-view-beautiful-tropical-beach.jpg"
+  },
+  {
+    "id": 2,
+    "name": "SUNDORBAN",
+    "details": "Sreemangal is known as the tea capital of Bangladesh. The area is famous for its tea gardens and scenic views.",
+    "bigDescription": "The Sundarbans, a UNESCO World Heritage Site, is home to the majestic Royal Bengal Tiger. This vast mangrove forest spreads across Bangladesh and India, offering a unique ecosystem with rich wildlife including spotted deer, crocodiles, and various bird species.",
+    "image": "https://i.ibb.co.com/yrtj9GZ/Pngtree-white-great-egret-ardea-alba-15597123.jpg"
+  },
+  {
+    "id": 3,
+    "name": "SREEMONGOL",
+    "details": "The Sundarbans is the largest mangrove forest in the world, known for the Royal Bengal Tigers and diverse wildlife.",
+    "bigDescription": "Sreemangal, known for its endless tea gardens, is often called the 'Tea Capital of Bangladesh'. Visitors love exploring Lawachara National Park, drinking the famous 7-layer tea, and watching the rolling hills covered with green plantations.",
+    "image": "https://i.ibb.co.com/F4t1d2Fq/Pngtree-nature-view-background-with-3d-4236289.jpg"
+  },
+  {
+    "id": 4,
+    "name": "SAJEK",
+    "details": "Bandarban is a hill district in southeastern Bangladesh, known for its beautiful hills, tribal culture, and natural waterfalls like Nafakhum and Amiakhum.",
+    "bigDescription": "Sajek Valley, called the 'Queen of Hills' in Bangladesh, is famous for its cloud-kissed peaks and serene environment. Tourists enjoy scenic sunrise and sunset views, tribal villages, and fresh air far away from the city noise.",
+    "image": "https://i.ibb.co.com/kVZjV3P9/bangladesh-4690973.jpg"
+  }
+]
