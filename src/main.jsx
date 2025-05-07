@@ -14,12 +14,15 @@ import LoginPage from './component/LoginPage.jsx';
 import Register from './component/Register.jsx';
 import AuthProvider from './Provider/AuthProvider.jsx';
 import PrivateRoute from './Layout/PrivateRoute.jsx';
+import Booking from './component/Booking.jsx';
+import NotFound from './component/NotFound.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement: <NotFound></NotFound>,
     children:[
       {
         path: '/',
@@ -28,9 +31,16 @@ const router = createBrowserRouter([
       {
         path: '/:id',
         loader: ()=> fetch('/places.json').then(res => res.json()),
-        element: <PrivateRoute> <Destination></Destination></PrivateRoute>,
+        element: <PrivateRoute>
+              <Destination></Destination>
+            </PrivateRoute>,
       },
       {
+        path: '/booking/:bookingId',
+        loader: ()=> fetch('/stay.json').then(res => res.json()),
+        element: <Booking></Booking>
+      },
+      { 
         path: '/auth',
         Component: Authentication,
         children: [
@@ -43,7 +53,8 @@ const router = createBrowserRouter([
             Component: Register,
           }
         ]
-      }
+      },
+      
     ]
   },
 ]);

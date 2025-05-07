@@ -1,0 +1,108 @@
+[
+      {
+        "id": 1,
+        "place": "Cox's Bazar",
+        "title": "Light bright airy stylish apt & safe peaceful stay",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "price": 34,
+        "rating": 4.9,
+        "reviews": 20,
+        "image": "https://i.ibb.co.com/twGqH3Bm/413163046.jpg"
+      },
+      {
+        "id": 1,
+        "place": "Cox's Bazar",
+        "title": "Apartment in Lost Panorama",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 2,
+        "baths": 2,
+        "price": 52,
+        "rating": 4.8,
+        "reviews": 10,
+        "image": "https://i.ibb.co.com/qFDSMM6V/download-1.jpg"
+      },
+      {
+        "id": 2,
+        "place": "Sundarban",
+        "title": "Hilltop Wooden Cottage with Scenic View",
+        "guests": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "baths": 1,
+        "price": 45,
+        "rating": 4.7,
+        "reviews": 18,
+        "image": "https://i.ibb.co.com/gMzDnsMX/download.jpg"
+      },
+      {
+        "id": 2,
+        "place": "Sundarban",
+        "title": "Cloud View Retreat & Cabin",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "baths": 1,
+        "price": 39,
+        "rating": 4.6,
+        "reviews": 12,
+        "image": "https://i.ibb.co.com/qLSBfcYH/images-1.jpg"
+      },
+      {
+        "id": 3,
+        "place": "Sreemangal",
+        "title": "Eco Jungle Stay with Wildlife View",
+        "guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "baths": 1,
+        "price": 40,
+        "rating": 4.8,
+        "reviews": 15,
+        "image": "https://i.ibb.co.com/wFrNg07v/images-2.jpg"
+      },
+      {
+        "id": 3,
+        "place": "Sreemangal",
+        "title": "Mangrove Cottage by the River",
+        "guests": 5,
+        "bedrooms": 2,
+        "beds": 4,
+        "baths": 2,
+        "price": 55,
+        "rating": 4.9,
+        "reviews": 22,
+        "image": "https://i.ibb.co.com/GvJ9tggs/images-3.jpg"
+      },
+      {
+        "id": 4,
+        "place": "Sajek",
+        "title": "Tea Garden Side Villa",
+        "guests": 3,
+        "bedrooms": 1,
+        "beds": 2,
+        "baths": 1,
+        "price": 38,
+        "rating": 4.7,
+        "reviews": 14,
+        "image": "https://i.ibb.co.com/qFVq0rXm/images.jpg"
+      },
+      {
+        "id": 4,
+        "place": "Sajek",
+        "title": "Eco Stay amidst Tea Estate",
+        "guests": 2,
+        "bedrooms": 1,
+        "beds": 1,
+        "baths": 1,
+        "price": 36,
+        "rating": 4.6,
+        "reviews": 11,
+        "image": "https://i.ibb.co.com/0yRHqdzT/Sea-Pearl-Beach-Resort-Spa-Cox-S-Bazar-Exterior.jpg"
+      }
+
+    ]
+  

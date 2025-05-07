@@ -1,7 +1,15 @@
 import React from 'react';
 import { FaCalendarAlt } from 'react-icons/fa';
+import { Navigate, useNavigate } from 'react-router';
 
 const BookingCart = ({findData}) => {
+  const navigate = useNavigate()
+
+  const handleBooking = () => {
+    navigate(`/booking/${findData.id}`)
+    
+  }
+
     return (
         <div className="w-90 bg-white rounded-lg shadow-lg p-5 space-y-4">
       {/* Origin */}
@@ -35,7 +43,7 @@ const BookingCart = ({findData}) => {
       </div>
 
       {/* Button */}
-      <button className="w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition">
+      <button onClick={handleBooking} className="w-full bg-orange-500 text-white py-2 rounded hover:bg-orange-600 transition">
         Start Booking
       </button>
     </div>
